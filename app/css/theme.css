@@ -1,0 +1,27 @@
+/* Two themes, paper (default) and night. Coral accent in both. No external fonts or images. */
+body[data-theme="night"] { background: #171310; color: #f0e6d6; }
+body[data-theme="night"] .subtitle,
+body[data-theme="night"] .grade-line,
+body[data-theme="night"] .platinum-line,
+body[data-theme="night"] .muted,
+body[data-theme="night"] footer { color: #b8a88e; }
+body[data-theme="night"] .controls,
+body[data-theme="night"] .trophy-row,
+body[data-theme="night"] .detail,
+body[data-theme="night"] .stage,
+body[data-theme="night"] .card,
+body[data-theme="night"] .empty,
+body[data-theme="night"] .tabs button,
+body[data-theme="night"] .btn { background: #241d16; border-color: #4a3a2a; color: #f0e6d6; }
+body[data-theme="night"] .trophy-row.earned { background: #2e261c; }
+body[data-theme="night"] .trophy-row .t-desc { color: #b8a88e; }
+body[data-theme="night"] .progress-bar { background: #3a2e22; border-color: #4a3a2a; }
+body[data-theme="night"] .stage .bar { background: #3a2e22; }
+body[data-theme="night"] .controls input[type="search"],
+body[data-theme="night"] .controls select,
+body[data-theme="night"] .count-row input { background: #171310; color: #f0e6d6; border-color: #4a3a2a; }
+body[data-theme="night"] .warning { background: #3a2c10; border-color: #f59e0b; color: #fde68a; }
+body[data-theme="night"] .top { border-bottom-color: #ea580c; }
+body[data-theme="night"] .detail .sources a { color: #fdba74; }
+body[data-theme="night"] .flag { background: #3a2c10; }
+body[data-theme="night"] .flag.hidden-flag { background: #1e1b4b; color: #c7d2fe; }
